@@ -10,6 +10,7 @@ colorspace=[cv2.COLOR_BGR2RGBA,cv2.COLOR_BGR2BGRA,
             cv2.COLOR_BGR2GRAY,cv2.COLOR_BGR2HSV_FULL,
             cv2.COLOR_BGR2YUV]
 cv2.createTrackbar('curcolor','color',0,len(colorspace)-1,callback)
+
 while True:
     index=cv2.getTrackbarPos('curcolor','color')
     # 颜色空间转换挨批
