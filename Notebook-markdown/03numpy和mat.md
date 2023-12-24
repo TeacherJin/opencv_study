@@ -23,3 +23,25 @@
   - 方式：[y1:y2,x1:x2]，
   - 整个图像：[:,:],也可以写作roi[:]
   - roi[:,10]表示所有x为10的元素
+
+## mat
+
+mat是一个矩阵，可能包含多个通道。单通道为灰度图，彩色图为3通道
+
+mat的好处：操作方便，方便numpy操作
+
+mat有两大部分组成，header和data，header存放属性，data就是具体数值
+
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+## mat浅拷贝和深拷贝
+
+![img_4.png](img_4.png)
+
+浅拷贝：两个mat对象header不同，但data部分共用
+![img_5.png](img_5.png)
+
+深拷贝：
+![img_6.png](img_6.png)
