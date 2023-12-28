@@ -36,9 +36,14 @@ cv2.circle(img, center, radius, color[, thickness[, lineType[, shift]]])
 
 ## 多边形
 
+`polylines(img, 点集,是否闭环,颜色)`，点集必须是32位的,np.int32
+`fillPoly(img,点集,颜色)`，填充颜色
 
+## 文本
 
-## 字体
+`putText(img,字符串，起始点，字体，字号...)`，
+
+## 
 
 
 
