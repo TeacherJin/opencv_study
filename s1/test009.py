@@ -2,7 +2,7 @@
 import cv2
 import numpy
 
-img=cv2.imread('./Auto-013.jpg')
+img=cv2.imread('Auto-013.jpg')
 # 浅拷贝
 img2=img
 # 深拷贝
